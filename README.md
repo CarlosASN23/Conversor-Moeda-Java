@@ -13,11 +13,11 @@ Os passos para completar este desafio serão detalhados a seguir e estarão disp
 # 1º PASSO
 Configuração do ambiente de desenvolvimento Java para o nosso desafio de construção do Conversor de Moedas. Certifique-se de ter os seguintes programas, arquivos e versões:
 
-    Java JDK: versão: 11 em diante -
-    Download the Latest Java LTS Free
-    Biblioteca Gson 2.10.1 em diante -
-    Maven Central Repository Search
-    Postman
+    - Java JDK: versão: 11 em diante -
+    - Download the Latest Java LTS Free
+    - Biblioteca Gson 2.10.1 em diante -
+    - Maven Central Repository Search
+    - Postman
 
 # 2º PASSO
 Conhecendo a documentação da API https://www.exchangerate-api.com/ para a realização das conversões entre as moedas.
