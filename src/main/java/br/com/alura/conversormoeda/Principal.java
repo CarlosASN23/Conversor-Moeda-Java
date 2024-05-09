@@ -55,12 +55,23 @@ public class Principal {
                     Double valorMoeda = sc.nextDouble();
 
                     try{
-                        Moeda novaMoeda = conversorMoeda.converterMoeda(siglaMoedaAtual,siglaMoedaConverte);
-                        novaMoeda.converterMoeda(valorMoeda);
-                        System.out.println(novaMoeda.toString());
-                    }catch (Exception e){
+
+                        if(siglaMoedaAtual != null ){
+
+                            if (siglaMoedaConverte != null){
+
+                                Moeda novaMoeda = conversorMoeda.converterMoeda(siglaMoedaAtual,siglaMoedaConverte);
+                                novaMoeda.converterMoeda(valorMoeda);
+                                System.out.println(novaMoeda.toString());
+                                GeradorDeArquivoJava gerador = new GeradorDeArquivoJava();
+                                gerador.salvaJson(novaMoeda);
+
+                            }
+                        }
+                    }catch (RuntimeException e){
                         System.out.println(e.getMessage());
                     }
+                    System.out.println("Finalizando operação...");
                     break;
 
                 case 3:
