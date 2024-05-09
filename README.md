@@ -11,7 +11,7 @@ Os passos para completar este desafio serão detalhados a seguir e estarão disp
     - Exibição de Resultados aos Usuários;
     
 # 1º PASSO
-onfiguração do ambiente de desenvolvimento Java para o nosso desafio de construção do Conversor de Moedas. Certifique-se de ter os seguintes programas, arquivos e versões:
+Configuração do ambiente de desenvolvimento Java para o nosso desafio de construção do Conversor de Moedas. Certifique-se de ter os seguintes programas, arquivos e versões:
 
     Java JDK: versão: 11 em diante -
     Download the Latest Java LTS Free
@@ -21,3 +21,31 @@ onfiguração do ambiente de desenvolvimento Java para o nosso desafio de constr
     Download Postman | Get Started for Free
     IDE (Ambiente de desenvolvimento integrado) IntelliJ IDEA- opcional -
     Baixe o IntelliJ IDEA – O principal IDE para Java e Kotlin
+
+# 2º PASSO
+Conhecendo a documentação da API https://www.exchangerate-api.com/ para a realização das conversões entre as moedas.
+
+# 3º PASSO
+Importando a biblioteca Gson no Intellij
+
+# 4º PASSO
+Construindo o client para solicitações HttpClient
+
+# 5º PASSO
+Criação da requisição HttpRquest para configura e personalizar as solicitações feita a API
+
+# 6º PASSO
+Construindo a resposta HttpResponse para gerenciar as respostas recebidas da API
+
+# 7ºPASSO
+Realizando a resposta em formato Json utilizando a biblioteca Gson através de mapeamentos de dados JSON para objetos Java
+
+# 8º PASSO
+Filtrando as moedas através das classes ConverteMoeda e Sigla
+
+# 9º PASSO
+Conversão de valores entre as moedas, através da interação com o usuario
+
+# 10º PASSO
+Criação da classe GeradorDeArquivo para gerar arquivos Json sobre as atividades realizadas pelo usuario (Conversão de moedas) através da biblioteca FileWriter
+
