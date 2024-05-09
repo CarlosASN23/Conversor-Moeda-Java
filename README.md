@@ -17,10 +17,7 @@ Configuração do ambiente de desenvolvimento Java para o nosso desafio de const
     Download the Latest Java LTS Free
     Biblioteca Gson 2.10.1 em diante -
     Maven Central Repository Search
-    Postman -
-    Download Postman | Get Started for Free
-    IDE (Ambiente de desenvolvimento integrado) IntelliJ IDEA- opcional -
-    Baixe o IntelliJ IDEA – O principal IDE para Java e Kotlin
+    Postman
 
 # 2º PASSO
 Conhecendo a documentação da API https://www.exchangerate-api.com/ para a realização das conversões entre as moedas.
