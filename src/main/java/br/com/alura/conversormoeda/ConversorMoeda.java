@@ -14,7 +14,7 @@ public class ConversorMoeda {
     public Moeda converterMoeda(String siglaMoedaAtual, String siglaMoedaConverte) {
 
         //Chave API
-        String api_key = "f9f4a92476a8ab3e09adc3a3";
+        String api_key = "YOUR_API_KEY";
 
         URI converterMoeda = URI.create(("https://v6.exchangerate-api.com/v6/" + api_key + "/pair/" + siglaMoedaAtual + "/" + siglaMoedaConverte));
         HttpRequest request = HttpRequest.newBuilder()
